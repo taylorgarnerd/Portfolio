@@ -1,0 +1,67 @@
+﻿html, body, h1, h2, h4 p {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Open Sans',Arial,sans-serif;
+}
+a:link, a:visited, a:hover a:active {
+    text-decoration: none;
+}
+a:visited {
+    color: darkblue;
+}
+a:hover {
+    color: darkblue;
+}
+
+.top-line {
+    height: auto;
+    background-color: gainsboro;
+    border-bottom: 1px solid darkgray;
+}
+.top-line a {
+    font-weight: bold;
+}
+
+.top-line h1, h2, p{
+    padding: 5px;
+}
+.top-line p {
+    margin: 5px 200px 10px 25px;
+}
+
+.project-frame {
+    /*background-color: lavender;*/
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#container {
+    display: flex;
+    justify-content: space-between;
+
+    height: auto;
+    padding: 15px;
+}
+
+#container > div {
+    width: 50%;
+
+    padding: 30px;
+
+    position: relative;
+}
+#container h3 {
+    color: midnightblue;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+#container a {
+    font-weight: bold;
+}
+
+.status {
+    position: absolute;
+    bottom: -10px;
+    left: 30px;
+}
