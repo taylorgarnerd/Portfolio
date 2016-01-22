@@ -1,3 +1,6 @@
 [submodule "resume"]
 	path = resume
 	url = https://github.com/taylorgarnerd/Resume.git
+[submodule "arcade-game"]
+	path = arcade-game
+	url = https://github.com/taylorgarnerd/Arcade-Game.git
