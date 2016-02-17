@@ -4,3 +4,6 @@
 [submodule "arcade-game"]
 	path = arcade-game
 	url = https://github.com/taylorgarnerd/Arcade-Game.git
+[submodule "optimization"]
+	path = optimization
+	url = https://github.com/taylorgarnerd/frontend-nanodegree-mobile-portfolio.git
