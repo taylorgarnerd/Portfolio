@@ -1,0 +1,111 @@
+.col-md-6, .col-md-4 {
+	text-align: center;
+}
+
+.container-fluid.projects {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.project p {
+	color: white;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.project h3 {
+	background:
+		linear-gradient(
+			to right,
+			rgba(0, 0, 0, 0.75),
+			rgba(0, 0, 0, 0.7)
+		);
+	color: white;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+#resume {
+	background:
+		linear-gradient(
+			to bottom right,
+			rgba(0, 0, 0, 0.5),
+      		rgba(0, 0, 0, 0.2)
+		),
+		url(../img/Resume-Prev.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 0;
+}
+
+#game {
+	background:
+		linear-gradient(
+			to bottom right,
+			rgba(0, 0, 0, 0.5),
+      		rgba(0, 0, 0, 0.2)
+		),
+		url(../img/Game-Prev.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 0;
+}
+
+#optimization {
+	background:
+		linear-gradient(
+			to bottom right,
+			rgba(0, 0, 0, 0.5),
+      		rgba(0, 0, 0, 0.2)
+		),
+		url(../img/Optimization-Prev.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 0;
+}
+
+#map {
+	background:
+		linear-gradient(
+			to bottom right,
+			rgba(0, 0, 0, 0.5),
+      		rgba(0, 0, 0, 0.2)
+		),
+		url(../img/Map-Prev.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 0;
+}
+
+#incomplete {
+	background:
+		linear-gradient(
+			to bottom right,
+			rgba(0, 0, 0, 0.5),
+      		rgba(0, 0, 0, 0.2)
+		),
+		url(../img/hoffman.png);
+	padding: 0;
+}
+
+.row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:	flex;
+  flex-wrap: wrap;
+}
+.row > [class*='col-'] {
+  display: flex;
+  flex-direction: column;
+}
+
+.buttons {
+	padding: 10px;
+}
+
+.buttons > .btn {
+	margin-left: 10px;
+	margin-right: 10px;
+}
