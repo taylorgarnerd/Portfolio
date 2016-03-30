@@ -1,5 +1,9 @@
-.col-md-6, .col-md-4 {
-	text-align: center;
+body { 
+	padding-top: 60px; 
+}
+
+.col-md-6 a, .col-md-4 a{
+	text-decoration: none;
 }
 
 .container-fluid.projects {
@@ -26,12 +30,16 @@
 	margin-right: 0px;
 }
 
+.project a:hover h3 {
+	color: #ffc715;
+}
+
 #resume {
 	background:
 		linear-gradient(
 			to bottom right,
-			rgba(0, 0, 0, 0.5),
-      		rgba(0, 0, 0, 0.2)
+			rgba(0, 0, 0, 0.6),
+      		rgba(0, 0, 0, 0.3)
 		),
 		url(../img/Resume-Prev.jpg);
 	background-size: cover;
@@ -43,8 +51,8 @@
 	background:
 		linear-gradient(
 			to bottom right,
-			rgba(0, 0, 0, 0.5),
-      		rgba(0, 0, 0, 0.2)
+			rgba(0, 0, 0, 0.6),
+      		rgba(0, 0, 0, 0.3)
 		),
 		url(../img/Game-Prev.jpg);
 	background-size: cover;
@@ -56,8 +64,8 @@
 	background:
 		linear-gradient(
 			to bottom right,
-			rgba(0, 0, 0, 0.5),
-      		rgba(0, 0, 0, 0.2)
+			rgba(0, 0, 0, 0.6),
+      		rgba(0, 0, 0, 0.3)
 		),
 		url(../img/Optimization-Prev.jpg);
 	background-size: cover;
@@ -69,8 +77,8 @@
 	background:
 		linear-gradient(
 			to bottom right,
-			rgba(0, 0, 0, 0.5),
-      		rgba(0, 0, 0, 0.2)
+			rgba(0, 0, 0, 0.6),
+      		rgba(0, 0, 0, 0.3)
 		),
 		url(../img/Map-Prev.jpg);
 	background-size: cover;
@@ -82,8 +90,8 @@
 	background:
 		linear-gradient(
 			to bottom right,
-			rgba(0, 0, 0, 0.5),
-      		rgba(0, 0, 0, 0.2)
+			rgba(0, 0, 0, 0.6),
+      		rgba(0, 0, 0, 0.3)
 		),
 		url(../img/hoffman.png);
 	padding: 0;
@@ -99,6 +107,7 @@
 .row > [class*='col-'] {
   display: flex;
   flex-direction: column;
+  text-align: center;
 }
 
 .buttons {
@@ -108,4 +117,13 @@
 .buttons > .btn {
 	margin-left: 10px;
 	margin-right: 10px;
+}
+
+.btn.btn-default {
+	font-size: 16px;
+}
+
+.btn.btn-default:hover {
+	background-color: white;
+	color: #ffc715;
 }
