@@ -1,123 +1,208 @@
-﻿<!DOCTYPE html>
-<html>
-<head>
-    <title>Web Dev Portfolio</title>
-	<meta charset="utf-8" />
-    <link href="CSS/StyleSheet.css" rel="stylesheet" />
-</head>
-<body>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <title>Web Dev Portfolio</title>
 
-    <div class="top-line">
+        <!-- Google Fonts -->
+        <link href='https://fonts.googleapis.com/css?family=Questrial' rel='stylesheet' type='text/css'>
+
+        <!-- Bootstrap -->
+        <link href="CSS/bootstrap.min.css" rel="stylesheet">
+        <!-- Overriding Stylesheet -->
+        <link href="CSS/stylesheet.css" rel="stylesheet" />
+
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="http://thecriticalpath.org">thecriticalpath.org</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
         <h1>Web Development Portfolio</h1>
-        <p>
-            Udacity’s premium “Nanodegree” programs offer an enticing track at a high price. Below are my attempts to complete all of the projects advertised for their Front-End Web Developer and Full Stack Web Developer programs.
-            You can find more information on the Udacity Nanodegrees at <a href="https://www.udacity.com/nanodegree">Udacity.com</a>.
-        </p>
+        <div class="hidden-xs hidden-sm">
+            <p>
+                Udacity’s premium “Nanodegree” programs offer an enticing track at a high price. Below are my attempts to complete all of the projects advertised for their Front-End Web Developer and Full Stack Web Developer programs.
+                You can find more information on the Udacity Nanodegrees at <a href="https://www.udacity.com/nanodegree">Udacity.com</a>.
+            </p>
+        </div>
     </div>
 
-    <div class="project-frame">
+        <div class="container">
+            <h2>Front-End Web Development</h2>
+        </div>
 
-        <h2>Front-End Web Development</h2>
+        <div class="container-fluid projects">
+            <div class="row">
+                
+                <div class="col-md-4" id="resume">
+                    <a href="resume">
+                        <div class="project">
+                            <h3>Interactive Resume</h3>
+                            <p>
+                                You will develop an interactive resume application that reads your resume content from a JSON file and dynamically displays that content within a provided template. You will use objects, functions, conditionals, and control structures to compose the content that will display on the resume.
+                            </p>
+                            <div class="buttons">
+                                <a class="btn btn-default" href="https://github.com/taylorgarnerd/Resume" role="button">GitHub</a>
+                                <a class="btn btn-default" href="http://thecriticalpath.org/2016/01/15/nanodegree-interactive-resume/" role="button">Blog</a>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+
+                <div class="col-md-4" id="game">
+                    <a href="arcade-game">
+                        <div class="project">
+                            <h3>Classic Arcade Game Clone</h3>
+                            <p>
+                                You will be provided with visual assets and a game loop engine; using these tools you must add a number of entities to the game including the player characters and enemies to recreate the classic arcade game Frogger.
+                            </p>
+                            <div class="buttons">
+                                <a class="btn btn-default" href="https://github.com/taylorgarnerd/Arcade-Game" role="button">GitHub</a>
+                                <a class="btn btn-default" href="http://thecriticalpath.org/2016/01/22/nanodegree-arcade-game/" role="button">Blog</a>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-md-4" id="optimization">
+                    <a href="optimization">
+                        <div class="project">
+                            <h3>Website Optimization</h3>
+                            <p>
+                                You will optimize a provided website with a number of optimization- and performance-related issues so that it achieves a target PageSpeed score and runs at 60 frames per second.
+                            </p>
+                            <div class="buttons">
+                                <a class="btn btn-default" href="https://github.com/taylorgarnerd/frontend-nanodegree-mobile-portfolio" role="button">GitHub</a>
+                                <a class="btn btn-default" href="http://thecriticalpath.org/2016/02/18/nanodegree-website-optimization/" role="button">Blog</a>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid projects">
+            <div class="row">
+                <div class="col-md-6" id="map">
+                    <a href="neighborhood">
+                        <div class="project">
+                            <h3>Neighborhood Map</h3>
+                            <p>
+                                You will develop a single-page application featuring a map of your neighborhood or a neighborhood you would like to visit. You will then add additional functionality to this application, including: map markers to identify popular locations or places you’d like to visit, a search function to easily discover these locations, and a listview to support simple browsing of all locations. You will then research and implement third-party APIs that provide additional information about each of these locations (such as StreetView images, Wikipedia articles, Yelp reviews, etc).
+                            </p>
+                            <div class="buttons">
+                                <a class="btn btn-default" href="https://github.com/taylorgarnerd/neighborhood" role="button">GitHub</a>
+                                <a class="btn btn-default" href="http://thecriticalpath.org/2016/03/19/nanodegree-neighborhood/" role="button">Blog</a>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-md-6" id="incomplete">
+                    <div class="project">
+                        <h3>Feed Reader Testing</h3>
+                            <p>
+                                In this project you are given a web-based application that reads RSS feeds. The original developer of this application clearly saw the value in testing, they've already included Jasmine and even started writing their first test suite! Unfortunately, they decided to move on to start their own company and we're now left with an application with an incomplete test suite. That's where you come in.
+                            </p>
+                        <div class="buttons">
+                            <a class="btn btn-default disabled" role="button">GitHub</a>
+                            <a class="btn btn-default disabled" role="button">Blog</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <div class="container">
-            <div class="container-item">
-                <a href="resume"><h3>Interactive Resume</h3></a>
-                <p>You will develop an interactive resume application that reads your resume content from a JSON file and dynamically displays that content within a provided template. You will use objects, functions, conditionals, and control structures to compose the content that will display on the resume.</p>
-                <div class="status">
-                    <p><i>Complete</i></p>
+            <h2>Full Stack Web Development</h2>
+        </div>
+
+        <div class="container-fluid projects">
+            <div class="row">
+                <div class="col-md-4" id="incomplete">
+                    <div class="project">
+                        <h3>Movie Trailer Website</h3>
+                            <p>
+                                You will write server-side code to store a list of your favorite movies, including box art imagery and a movie trailer URL. You will then serve this data as a web page allowing visitors to review their movies and watch the trailers.
+                            </p>
+                        <div class="buttons">
+                            <a class="btn btn-default disabled" role="button">GitHub</a>
+                            <a class="btn btn-default disabled" role="button">Blog</a>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="container-item">
-                <a href="arcade-game"><h3>Classic Arcade Game Clone</h3></a>
-                <p>You will be provided with visual assets and a game loop engine; using these tools you must add a number of entities to the game including the player characters and enemies to recreate the classic arcade game Frogger.</p>
-                <div class="status">
-                    <p><i>Complete</i></p>
+                <div class="col-md-4" id="incomplete">
+                    <div class="project">
+                        <h3>Tournament Results</h3>
+                            <p>
+                                You will develop a database schema to store the game matches between players. You will then write code to query this data and determine the winners of various games.
+                            </p>
+                        <div class="buttons">
+                            <a class="btn btn-default disabled" role="button">GitHub</a>
+                            <a class="btn btn-default disabled" role="button">Blog</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4" id="incomplete">
+                    <div class="project">
+                        <h3>Item Catalog</h3>
+                            <p>
+                                You will develop an application that provides a list of items within a variety of categories as well as provide a user registration and authentication system. Registered users will have the ability to post, edit and delete their own items.
+                            </p>
+                        <div class="buttons">
+                            <a class="btn btn-default disabled" role="button">GitHub</a>
+                            <a class="btn btn-default disabled" role="button">Blog</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
 
-        <div class="container">
-            <div class="container-item">
-                <a href="optimization"><h3>Website Optimization</h3></a>
-                <p>You will optimize a provided website with a number of optimization- and performance-related issues so that it achieves a target PageSpeed score and runs at 60 frames per second.</p>
-                <div class="status">
-                    <p><i>Complete</i></p>
+        <div class="container-fluid projects">
+            <div class="row">
+                <div class="col-md-6" id="incomplete">
+                    <div class="project">
+                        <h3>Conference Organization App</h3>
+                            <p>
+                                You will develop a cloud-based API server to support a provided conference organization application that exists on the web as well as a native Android application. The API supports the following functionality found within the app: user authentication, user profiles, conference information and various manners in which to query the data.
+                            </p>
+                        <div class="buttons">
+                            <a class="btn btn-default disabled" role="button">GitHub</a>
+                            <a class="btn btn-default disabled" role="button">Blog</a>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="container-item">
-                <a href="neighborhood"><h3>Neighborhood Map</h3></a>
-                <p>You will develop a single-page application featuring a map of your neighborhood or a neighborhood you would like to visit. You will then add additional functionality to this application, including: map markers to identify popular locations or places you’d like to visit, a search function to easily discover these locations, and a listview to support simple browsing of all locations. You will then research and implement third-party APIs that provide additional information about each of these locations (such as StreetView images, Wikipedia articles, Yelp reviews, etc).</p>
-                <div class="status">
-                    <p><i>Complete</i></p>
-                </div>
-            </div>
-        </div>
-
-        <div class="container">
-            <div class="container-item">
-                <a href="http://portfolio.thecriticalpath.org"><h3>Feed Reader Testing</h3></a>
-                <p>In this project you are given a web-based application that reads RSS feeds. The original developer of this application clearly saw the value in testing, they've already included Jasmine and even started writing their first test suite! Unfortunately, they decided to move on to start their own company and we're now left with an application with an incomplete test suite. That's where you come in.</p>
-                <div class="status">
-                    <p><i>Not complete</i></p>
-                </div>
-            </div>
-            <div class="container-item">
-            </div>
-        </div>
-
-        <h2>Full Stack Web Development</h2>
-
-        <div class="container">
-            <div class="container-item">
-                <a href="http://portfolio.thecriticalpath.org"><h3>Movie Trailer Website</h3></a>
-                <p>You will write server-side code to store a list of your favorite movies, including box art imagery and a movie trailer URL. You will then serve this data as a web page allowing visitors to review their movies and watch the trailers.</p>
-                <div class="status">
-                    <p><i>Not complete</i></p>
-                </div>
-            </div>
-            <div class="container-item">
-                <a href="http://portfolio.thecriticalpath.org"><h3>Tournament Results</h3></a>
-                <p>You will develop a database schema to store the game matches between players. You will then write code to query this data and determine the winners of various games.</p>
-                <div class="status">
-                    <p><i>Not complete</i></p>
+                <div class="col-md-6" id="incomplete">
+                    <div class="project">
+                        <h3>Linux-based Server Configuration</h3>
+                            <p>
+                                You will take a baseline installation of a Linux distribution on a virtual machine and prepare it to host your web applications, to include installing updates, securing it from a number of attack vectors and installing/configuring web and database servers.
+                            </p>
+                        <div class="buttons">
+                            <a class="btn btn-default disabled" role="button">GitHub</a>
+                            <a class="btn btn-default disabled" role="button">Blog</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
 
-        <div class="container">
-            <div class="container-item">
-                <a href="http://portfolio.thecriticalpath.org"><h3>Item Catalog</h3></a>
-                <p>You will develop an application that provides a list of items within a variety of categories as well as provide a user registration and authentication system. Registered users will have the ability to post, edit and delete their own items.</p>
-                <div class="status">
-                    <p><i>Not complete</i></p>
-                </div>
-            </div>
-            <div class="container-item">
-                <a href="http://portfolio.thecriticalpath.org"><h3>Conference Organization App</h3></a>
-                <p>You will develop a cloud-based API server to support a provided conference organization application that exists on the web as well as a native Android application. The API supports the following functionality found within the app: user authentication, user profiles, conference information and various manners in which to query the data.</p>
-                <div class="status">
-                    <p><i>Not complete</i></p>
-                </div>
-            </div>
-        </div>
-
-        <div class="container">
-            <div class="container-item">
-                <a href="http://portfolio.thecriticalpath.org"><h3>Linux-based Server Configuration</h3></a>
-                <p>You will take a baseline installation of a Linux distribution on a virtual machine and prepare it to host your web applications, to include installing updates, securing it from a number of attack vectors and installing/configuring web and database servers.</p>
-                <div class="status">
-                    <p><i>Not complete</i></p>
-                </div>
-            </div>
-            <div class="container-item">
-            </div>
-        </div>
-
-        <div class="footer">
-            <a href="http://thecriticalpath.org"><h4>thecriticalpath.org</h4></a>
-        </div>
-
-    </div>
-
-</body>
-</html>
+        <script src="js/jquery-2.2.2.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+    </html>
