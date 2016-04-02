@@ -1,0 +1,28 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Part  I of my Udacity WebDev Nanodegree Challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taylorgarnerd/Portfolio.git"
+  },
+  "author": "Taylor Garner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/taylorgarnerd/Portfolio/issues"
+  },
+  "homepage": "https://github.com/taylorgarnerd/Portfolio#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-csso": "^1.1.0",
+    "gulp-htmlmin": "^1.3.0",
+    "gulp-imagemin": "^2.4.0"
+  },
+  "dependencies": {
+    "gulp": "^3.9.1"
+  }
+}
