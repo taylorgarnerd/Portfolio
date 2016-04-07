@@ -1,9 +1,89 @@
-body { 
-	padding-top: 60px; 
-}
-
 .col-md-6 a, .col-md-4 a{
 	text-decoration: none;
+}
+
+.row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:	flex;
+  flex-wrap: wrap;
+}
+
+.row > [class*='col-'] {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+#resume {
+	background:
+		linear-gradient(
+			to bottom right,
+			rgba(0, 0, 0, 0.6),
+      		rgba(0, 0, 0, 0.3)
+		),
+		url(../img/Resume-Prev.jpg);
+}
+
+#game {
+	background:
+		linear-gradient(
+			to bottom right,
+			rgba(0, 0, 0, 0.6),
+      		rgba(0, 0, 0, 0.3)
+		),
+		url(../img/Game-Prev.jpg);
+}
+
+#optimization {
+	background:
+		linear-gradient(
+			to bottom right,
+			rgba(0, 0, 0, 0.6),
+      		rgba(0, 0, 0, 0.3)
+		),
+		url(../img/Optimization-Prev.jpg);
+}
+
+#map {
+	background:
+		linear-gradient(
+			to bottom right,
+			rgba(0, 0, 0, 0.6),
+      		rgba(0, 0, 0, 0.3)
+		),
+		url(../img/Map-Prev.jpg);
+}
+
+#feed {
+	background:
+		linear-gradient(
+			to bottom right,
+			rgba(0, 0, 0, 0.6),
+      		rgba(0, 0, 0, 0.3)
+		),
+		url(../img/Feed-Prev.jpg);
+}
+
+#incomplete {
+	background:
+		linear-gradient(
+			to bottom right,
+			rgba(0, 0, 0, 0.6),
+      		rgba(0, 0, 0, 0.3)
+		),
+		url(../img/hoffman.png);
+	background-repeat: repeat;
+}
+
+#resume, #game, #optimization, #map, #feed, #incomplete {
+	padding: 0;
+}
+
+#resume, #game, #optimization, #map, #feed {
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 .container-fluid.projects {
@@ -32,82 +112,6 @@ body {
 
 .project a:hover h3 {
 	color: #ffc715;
-}
-
-#resume {
-	background:
-		linear-gradient(
-			to bottom right,
-			rgba(0, 0, 0, 0.6),
-      		rgba(0, 0, 0, 0.3)
-		),
-		url(../img/Resume-Prev.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	padding: 0;
-}
-
-#game {
-	background:
-		linear-gradient(
-			to bottom right,
-			rgba(0, 0, 0, 0.6),
-      		rgba(0, 0, 0, 0.3)
-		),
-		url(../img/Game-Prev.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	padding: 0;
-}
-
-#optimization {
-	background:
-		linear-gradient(
-			to bottom right,
-			rgba(0, 0, 0, 0.6),
-      		rgba(0, 0, 0, 0.3)
-		),
-		url(../img/Optimization-Prev.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	padding: 0;
-}
-
-#map {
-	background:
-		linear-gradient(
-			to bottom right,
-			rgba(0, 0, 0, 0.6),
-      		rgba(0, 0, 0, 0.3)
-		),
-		url(../img/Map-Prev.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	padding: 0;
-}
-
-#incomplete {
-	background:
-		linear-gradient(
-			to bottom right,
-			rgba(0, 0, 0, 0.6),
-      		rgba(0, 0, 0, 0.3)
-		),
-		url(../img/hoffman.png);
-	padding: 0;
-}
-
-.row {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display:	flex;
-  flex-wrap: wrap;
-}
-.row > [class*='col-'] {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
 }
 
 .buttons {
