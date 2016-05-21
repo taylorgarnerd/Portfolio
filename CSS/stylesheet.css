@@ -70,6 +70,16 @@ body {
 		url(../img/Feed-Prev.jpg);
 }
 
+#movie {
+	background:
+		linear-gradient(
+			to bottom right,
+			rgba(0, 0, 0, 0.6),
+      		rgba(0, 0, 0, 0.3)
+		),
+		url(../img/Movie-Prev.jpg);
+}
+
 #incomplete {
 	background:
 		linear-gradient(
